@@ -928,7 +928,7 @@
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="350" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="350" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="3" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -986,7 +986,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="3" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1008,13 +1008,13 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-1/5/2021 15:18:51]]></RmTextDataBlock></RmStringVariable>
+13/7/2021 19:50:55]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey 1.71]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="BASE_WORKSPACE_PATH" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-C:\Users\dante\Workspace\Studies\Study_Windows\Framework\Shader\Learning_01\RenderMonkey\Example\E01\]]></RmTextDataBlock></RmStringVariable>
+C:\Users\dante\Workspace\Studies\Windows\Framework\Shader\Learning_01\RenderMonkey\Example\E01\]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
    </RmRegistryBranch>
   </RmRegistryBranch>
@@ -1080,8 +1080,8 @@ float4 PSMain(STPSInput a_stInput) : SV_TARGET {
   <RmEffectGroup NAME="Example_075" API="">
    <RmDirectXEffect NAME="E075_A" API="D3D" ACTIVE_CAMERA="">
     <RmMatrixVariable NAME="g_stWorldMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="World" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="0.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
-    <RmMatrixVariable NAME="g_stViewMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="View" VALUE_0="0.040195" VALUE_1="-0.495309" VALUE_2="0.867787" VALUE_3="-0.000001" VALUE_4="0.687513" VALUE_5="-0.616505" VALUE_6="-0.383729" VALUE_7="0.000007" VALUE_8="0.725059" VALUE_9="0.612039" VALUE_10="0.315751" VALUE_11="199.999863" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
-    <RmMatrixVariable NAME="g_stProjectionMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Projection" VALUE_0="1.415801" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="2.414214" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.001001" VALUE_11="-1.001001" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="1.000000" VALUE_15="0.000000"/>
+    <RmMatrixVariable NAME="g_stViewMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="View" VALUE_0="0.899393" VALUE_1="-0.413389" VALUE_2="-0.142130" VALUE_3="0.000004" VALUE_4="0.294340" VALUE_5="0.332300" VALUE_6="0.896069" VALUE_7="0.000245" VALUE_8="-0.323195" VALUE_9="-0.847753" VALUE_10="0.420547" VALUE_11="200.000092" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
+    <RmMatrixVariable NAME="g_stProjectionMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Projection" VALUE_0="2.245950" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="2.414214" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.001001" VALUE_11="-1.001001" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="1.000000" VALUE_15="0.000000"/>
     <Rm2DTextureVariable NAME="g_oDiffuseMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\Earth.jpg" ORIGIN="0"/>
     <RmStreamMap NAME="Stream Mapping" API="">
      <RmStream NAME="Stream" API="" STRIDE="20">
@@ -1100,26 +1100,26 @@ float4x4 g_stProjectionMatrix;
 
 //! 정점 입력
 struct STVSInput {
-	float3 m_stPos : POSITION0;
-	float2 m_stUV : TEXCOORD0;
+   float3 m_stPos : POSITION0;
+   float2 m_stUV : TEXCOORD0;
 };
 
 //! 정점 출력
 struct STVSOutput {
-	float4 m_stPos : POSITION0;
-	float2 m_stUV : TEXCOORD0;
+   float4 m_stPos : POSITION0;
+   float2 m_stUV : TEXCOORD0;
 };
 
 //! 정점 쉐이더
 STVSOutput VSMain(STVSInput a_stInput) {
-	STVSOutput stOutput = (STVSOutput)0;
-	float4 stWorldPos = mul(float4(a_stInput.m_stPos, 1.0), g_stWorldMatrix);
-	
-	stOutput.m_stPos = mul(stWorldPos, g_stViewMatrix);
-	stOutput.m_stPos = mul(stOutput.m_stPos, g_stProjectionMatrix);
-	
-	stOutput.m_stUV = a_stInput.m_stUV;
-	return stOutput;
+   STVSOutput stOutput = (STVSOutput)0;
+   float4 stWorldPos = mul(float4(a_stInput.m_stPos, 1.0), g_stWorldMatrix);
+   
+   stOutput.m_stPos = mul(stWorldPos, g_stViewMatrix);
+   stOutput.m_stPos = mul(stOutput.m_stPos, g_stProjectionMatrix);
+   
+   stOutput.m_stUV = a_stInput.m_stUV;
+   return stOutput;
 }
 ]]></RmShaderCode>
       <RmShaderConstant NAME="g_stProjectionMatrix" API="" REGISTER="8"/>
@@ -1132,13 +1132,13 @@ sampler2D g_oDiffuseMap;
 
 //! 픽셀 입력
 struct STPSInput {
-	float4 m_stPos : POSITION0;
-	float2 m_stUV : TEXCOORD0;
+   float4 m_stPos : POSITION0;
+   float2 m_stUV : TEXCOORD0;
 };
 
 //! 픽셀 쉐이더
 float4 PSMain(STPSInput a_stInput) : SV_TARGET {
-	return tex2D(g_oDiffuseMap, a_stInput.m_stUV);
+   return tex2D(g_oDiffuseMap, a_stInput.m_stUV);
 }
 ]]></RmShaderCode>
       <RmSampler NAME="g_oDiffuseMap" API="" REGISTER="0"/>
